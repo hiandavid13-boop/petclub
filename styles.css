@@ -326,3 +326,8 @@ img{display:block}
 .split>img{align-self:center;aspect-ratio:4/3;height:auto;min-height:0;padding:14px}
 .media-grid img{padding:6px}.product-visual img{padding:12px}
 @media(max-width:760px){.hero>img,.business-hero>img,.split>img{height:auto;min-height:0;aspect-ratio:4/3}.hero>img{max-height:none}}
+
+/* Correção definitiva: a própria imagem define sua altura natural, sem recorte ou compressão. */
+.hero>img,.split>img,.appointment-guide>img,.business-hero>img{display:block;width:100%;height:auto!important;min-height:0!important;max-height:none!important;aspect-ratio:auto!important;object-fit:fill!important;object-position:initial!important;align-self:center;padding:0!important;background:none!important}
+.media-grid figure{height:auto!important}.media-grid img{display:block;width:100%;height:auto!important;aspect-ratio:auto!important;object-fit:fill!important;padding:0!important;background:none!important}
+@media(max-width:760px){.hero>img,.split>img,.appointment-guide>img,.business-hero>img{height:auto!important;min-height:0!important;max-height:none!important}}
