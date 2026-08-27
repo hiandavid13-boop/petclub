@@ -2,7 +2,7 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>PetClub | Cuidado completo para todos os pets</title>
 <meta name="description" content="PetClub: agendamentos, loja, atendimento 24h e gestão completa para pets e pet shops.">
-<link rel="stylesheet" href="styles.css?v=2"><script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+<link rel="stylesheet" href="styles.css?v=3"><script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
 </head><body>
 <header class="topbar"><div class="navwrap">
  <button class="brand" data-go="home"><span class="brandmark"><i data-lucide="paw-print"></i></span><span>Pet<b>Club</b></span><em>24H</em></button>
@@ -52,6 +52,8 @@
 
 <div class="modal" id="businessModal"><div class="modal-card"><header><div><small>PETCLUB PARA EMPRESAS</small><h2>Solicitar contato</h2></div><button class="icon-btn" data-close="business"><i data-lucide="x"></i></button></header><form id="businessForm" class="form-grid"><label>Empresa<input required></label><label>Responsável<input required></label><label>E-mail<input type="email" required></label><label>Telefone<input required></label><label class="full">Interesse<select><option>Comprar no atacado</option><option>Abrir uma unidade PetClub</option><option>Consultoria e processos</option><option>Treinamento de equipe</option></select></label><button class="btn teal full">Enviar solicitação</button></form></div></div>
 
+<div class="modal" id="adminActionModal"><div class="modal-card"><header><div><small>PAINEL ADMINISTRATIVO</small><h2 id="adminActionTitle">Novo registro</h2></div><button class="icon-btn" data-close="adminAction"><i data-lucide="x"></i></button></header><form id="adminActionForm" class="form-grid"></form></div></div>
+
 <section id="adminApp" class="admin-app"><aside class="admin-sidebar"><div class="brand admin-brand"><span class="brandmark"><i data-lucide="paw-print"></i></span><span>Pet<b>Club</b></span></div><small>GERENCIAMENTO</small><nav id="adminNav"><button class="active" data-admin="dashboard"><i data-lucide="layout-dashboard"></i>Visão geral</button><button data-admin="bookings"><i data-lucide="calendar-days"></i>Agenda</button><button data-admin="clients"><i data-lucide="users"></i>Clientes e pets</button><button data-admin="services"><i data-lucide="scissors"></i>Serviços</button><button data-admin="inventory"><i data-lucide="package"></i>Estoque</button><button data-admin="restock"><i data-lucide="package-plus"></i>Reposição</button><button data-admin="orders"><i data-lucide="receipt-text"></i>Pedidos e vendas</button><button data-admin="finance"><i data-lucide="landmark"></i>Contas e financeiro</button><button data-admin="suppliers"><i data-lucide="warehouse"></i>Fornecedores</button></nav><button class="logout" id="logoutBtn"><i data-lucide="log-out"></i>Sair da administração</button></aside><main class="admin-main"><header class="admin-top"><div><small>PAINEL ADMINISTRATIVO</small><h1 id="adminTitle">Visão geral</h1></div><div class="admin-user"><span>AD</span><div><b>Administrador</b><small>PetClub 24h</small></div></div></header><div id="adminContent"></div></main></section>
 
-<div class="toast" id="toast"><i data-lucide="circle-check"></i><span>Ação concluída</span></div><script src="app.js?v=2"></script></body></html>
+<div class="toast" id="toast"><i data-lucide="circle-check"></i><span>Ação concluída</span></div><script src="app.js?v=3"></script></body></html>
