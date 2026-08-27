@@ -1,26 +1,26 @@
 const DEFAULT_PRODUCTS=[
- {id:1,name:"Ração Premium Cães 10 kg",category:"Alimentação",animal:"Cachorro",price:129.9,stock:18,min:5,icon:"bone",image:"dog-care.png",desc:"Nutrição completa para cães adultos."},
- {id:2,name:"Ração Premium Gatos 3 kg",category:"Alimentação",animal:"Gato",price:84.9,stock:14,min:5,icon:"cat",image:"cat-vet.png",desc:"Fórmula balanceada para gatos adultos."},
- {id:3,name:"Ração para Coelhos 1 kg",category:"Alimentação",animal:"Outros",price:29.9,stock:9,min:4,icon:"rabbit",image:"other-pets.png",desc:"Alimento completo rico em fibras."},
- {id:4,name:"Alimento para Peixes",category:"Alimentação",animal:"Outros",price:19.9,stock:16,min:5,icon:"fish",image:"other-pets.png",desc:"Flocos para peixes ornamentais."},
- {id:5,name:"Petisco Natural para Cães",category:"Petiscos",animal:"Cachorro",price:22.9,stock:4,min:5,icon:"cookie",image:"dog-care.png",desc:"Petisco assado com ingredientes naturais."},
- {id:6,name:"Petisco Cremoso para Gatos",category:"Petiscos",animal:"Gato",price:14.9,stock:11,min:4,icon:"milk",image:"cat-vet.png",desc:"Snack cremoso de alta aceitação."},
- {id:7,name:"Shampoo Pele Sensível",category:"Higiene",animal:"Cachorro",price:35.9,stock:3,min:5,icon:"bath",image:"petclub-service.png",desc:"Limpeza suave e hidratação."},
- {id:8,name:"Areia Higiênica 4 kg",category:"Higiene",animal:"Gato",price:32.9,stock:20,min:6,icon:"package",image:"cat-vet.png",desc:"Alta absorção e controle de odores."},
- {id:9,name:"Tapete Higiênico 30 un.",category:"Higiene",animal:"Cachorro",price:59.9,stock:8,min:5,icon:"layers",image:"petclub-store.png",desc:"Proteção e absorção para o dia a dia."},
- {id:10,name:"Antipulgas Cães",category:"Medicamentos",animal:"Cachorro",price:54.9,stock:6,min:4,icon:"shield-plus",image:"dog-care.png",desc:"Uso demonstrativo sob orientação veterinária."},
- {id:11,name:"Antipulgas Gatos",category:"Medicamentos",animal:"Gato",price:49.9,stock:5,min:4,icon:"shield-plus",image:"cat-vet.png",desc:"Uso demonstrativo sob orientação veterinária."},
- {id:12,name:"Coleira Confort",category:"Acessórios",animal:"Cachorro",price:45,stock:12,min:4,icon:"badge",image:"petclub-store.png",desc:"Ajustável, resistente e confortável."},
- {id:13,name:"Caixa de Transporte",category:"Acessórios",animal:"Todos",price:139.9,stock:7,min:3,icon:"briefcase",image:"petclub-store.png",desc:"Transporte seguro para cães e gatos."},
- {id:14,name:"Bebedouro Automático",category:"Utensílios",animal:"Todos",price:89.9,stock:10,min:3,icon:"cup-soda",image:"petclub-store.png",desc:"Água fresca e circulação contínua."},
- {id:15,name:"Comedouro Inox",category:"Utensílios",animal:"Todos",price:34.9,stock:15,min:5,icon:"circle",image:"petclub-store.png",desc:"Higiênico e fácil de limpar."},
- {id:16,name:"Bola Resistente",category:"Brinquedos",animal:"Cachorro",price:24.9,stock:13,min:5,icon:"circle-dot",image:"dog-care.png",desc:"Diversão e estímulo para cães."},
- {id:17,name:"Arranhador Compacto",category:"Brinquedos",animal:"Gato",price:79.9,stock:6,min:3,icon:"sparkles",image:"cat-vet.png",desc:"Ajuda a preservar móveis e estimular o gato."},
- {id:18,name:"Brinquedo Interativo",category:"Brinquedos",animal:"Todos",price:39.9,stock:9,min:4,icon:"puzzle",image:"petclub-store.png",desc:"Enriquecimento ambiental e atividade mental."},
- {id:19,name:"Brinquedo para Aves",category:"Brinquedos",animal:"Outros",price:27.9,stock:8,min:3,icon:"bird",image:"other-pets.png",desc:"Estimula atividade e curiosidade."},
- {id:20,name:"Roda para Hamster",category:"Brinquedos",animal:"Outros",price:42.9,stock:5,min:3,icon:"circle-gauge",image:"other-pets.png",desc:"Exercício seguro para pequenos roedores."},
- {id:21,name:"Cama Macia Tamanho M",category:"Acessórios",animal:"Todos",price:99.9,stock:7,min:3,icon:"bed",image:"petclub-store.png",desc:"Conforto para o descanso do seu pet."},
- {id:22,name:"Kit Aquário Inicial",category:"Utensílios",animal:"Outros",price:189.9,stock:4,min:2,icon:"fish-symbol",image:"other-pets.png",desc:"Kit demonstrativo para começar um aquário."}
+ {id:1,name:"Ração Premium Cães 10 kg",category:"Alimentação",animal:"Cachorro",price:129.9,stock:18,min:5,icon:"bone",sheet:"products-food.png",pos:"0% 0%",desc:"Nutrição completa para cães adultos."},
+ {id:2,name:"Ração Premium Gatos 3 kg",category:"Alimentação",animal:"Gato",price:84.9,stock:14,min:5,icon:"cat",sheet:"products-food.png",pos:"50% 0%",desc:"Fórmula balanceada para gatos adultos."},
+ {id:3,name:"Ração para Coelhos 1 kg",category:"Alimentação",animal:"Outros",price:29.9,stock:9,min:4,icon:"rabbit",sheet:"products-food.png",pos:"100% 0%",desc:"Alimento completo rico em fibras."},
+ {id:4,name:"Alimento para Peixes",category:"Alimentação",animal:"Outros",price:19.9,stock:16,min:5,icon:"fish",sheet:"products-food.png",pos:"0% 100%",desc:"Flocos para peixes ornamentais."},
+ {id:5,name:"Petisco Natural para Cães",category:"Petiscos",animal:"Cachorro",price:22.9,stock:4,min:5,icon:"cookie",sheet:"products-food.png",pos:"50% 100%",desc:"Petisco assado com ingredientes naturais."},
+ {id:6,name:"Petisco Cremoso para Gatos",category:"Petiscos",animal:"Gato",price:14.9,stock:11,min:4,icon:"milk",sheet:"products-food.png",pos:"100% 100%",desc:"Snack cremoso de alta aceitação."},
+ {id:7,name:"Shampoo Pele Sensível",category:"Higiene",animal:"Cachorro",price:35.9,stock:3,min:5,icon:"bath",sheet:"products-care.png",pos:"0% 0%",desc:"Limpeza suave e hidratação."},
+ {id:8,name:"Areia Higiênica 4 kg",category:"Higiene",animal:"Gato",price:32.9,stock:20,min:6,icon:"package",sheet:"products-care.png",pos:"50% 0%",desc:"Alta absorção e controle de odores."},
+ {id:9,name:"Tapete Higiênico 30 un.",category:"Higiene",animal:"Cachorro",price:59.9,stock:8,min:5,icon:"layers",sheet:"products-care.png",pos:"100% 0%",desc:"Proteção e absorção para o dia a dia."},
+ {id:10,name:"Antipulgas Cães",category:"Medicamentos",animal:"Cachorro",price:54.9,stock:6,min:4,icon:"shield-plus",sheet:"products-care.png",pos:"0% 100%",desc:"Uso demonstrativo sob orientação veterinária."},
+ {id:11,name:"Antipulgas Gatos",category:"Medicamentos",animal:"Gato",price:49.9,stock:5,min:4,icon:"shield-plus",sheet:"products-care.png",pos:"50% 100%",desc:"Uso demonstrativo sob orientação veterinária."},
+ {id:12,name:"Coleira Confort",category:"Acessórios",animal:"Cachorro",price:45,stock:12,min:4,icon:"badge",sheet:"products-accessories.png",pos:"0% 0%",desc:"Ajustável, resistente e confortável."},
+ {id:13,name:"Caixa de Transporte",category:"Acessórios",animal:"Todos",price:139.9,stock:7,min:3,icon:"briefcase",sheet:"products-accessories.png",pos:"50% 0%",desc:"Transporte seguro para cães e gatos."},
+ {id:14,name:"Bebedouro Automático",category:"Utensílios",animal:"Todos",price:89.9,stock:10,min:3,icon:"cup-soda",sheet:"products-accessories.png",pos:"100% 0%",desc:"Água fresca e circulação contínua."},
+ {id:15,name:"Comedouro Inox",category:"Utensílios",animal:"Todos",price:34.9,stock:15,min:5,icon:"circle",sheet:"products-accessories.png",pos:"0% 100%",desc:"Higiênico e fácil de limpar."},
+ {id:16,name:"Bola Resistente",category:"Brinquedos",animal:"Cachorro",price:24.9,stock:13,min:5,icon:"circle-dot",sheet:"products-toys.png",pos:"0% 0%",desc:"Diversão e estímulo para cães."},
+ {id:17,name:"Arranhador Compacto",category:"Brinquedos",animal:"Gato",price:79.9,stock:6,min:3,icon:"sparkles",sheet:"products-toys.png",pos:"50% 0%",desc:"Ajuda a preservar móveis e estimular o gato."},
+ {id:18,name:"Brinquedo Interativo",category:"Brinquedos",animal:"Todos",price:39.9,stock:9,min:4,icon:"puzzle",sheet:"products-toys.png",pos:"100% 0%",desc:"Enriquecimento ambiental e atividade mental."},
+ {id:19,name:"Brinquedo para Aves",category:"Brinquedos",animal:"Outros",price:27.9,stock:8,min:3,icon:"bird",sheet:"products-toys.png",pos:"0% 100%",desc:"Estimula atividade e curiosidade."},
+ {id:20,name:"Roda para Hamster",category:"Brinquedos",animal:"Outros",price:42.9,stock:5,min:3,icon:"circle-gauge",sheet:"products-toys.png",pos:"50% 100%",desc:"Exercício seguro para pequenos roedores."},
+ {id:21,name:"Cama Macia Tamanho M",category:"Acessórios",animal:"Todos",price:99.9,stock:7,min:3,icon:"bed",sheet:"products-accessories.png",pos:"50% 100%",desc:"Conforto para o descanso do seu pet."},
+ {id:22,name:"Kit Aquário Inicial",category:"Utensílios",animal:"Outros",price:189.9,stock:4,min:2,icon:"fish-symbol",sheet:"products-toys.png",pos:"100% 100%",desc:"Kit demonstrativo para começar um aquário."}
 ];
 const SERVICES=[
  {id:1,animal:"Cachorro",name:"Banho completo",price:55,duration:"1h",icon:"bath",desc:"Banho, hidratação, secagem, escovação e perfume."},
@@ -46,6 +46,7 @@ const INITIAL_ORDERS=[{id:"PC-2026-0141",customer:"Carlos Souza",date:"26/08/202
 const clone=v=>JSON.parse(JSON.stringify(v));
 const load=(key,fallback)=>{try{return JSON.parse(localStorage.getItem(key))??clone(fallback)}catch{return clone(fallback)}};
 let products=load("pc_products",DEFAULT_PRODUCTS),cart=load("pc_cart",[]),pets=load("pc_pets",INITIAL_PETS),bookings=load("pc_bookings",INITIAL_BOOKINGS),orders=load("pc_orders",INITIAL_ORDERS),restocks=load("pc_restocks",[]),adminRecords=load("pc_admin_records",[]);
+products=DEFAULT_PRODUCTS.map(base=>({...base,...(products.find(saved=>saved.id===base.id)||{}),sheet:base.sheet,pos:base.pos}));
 let filters={category:"Todos",animal:"Todos",service:"Todos"},adminSection="dashboard";
 const money=v=>new Intl.NumberFormat("pt-BR",{style:"currency",currency:"BRL"}).format(v);
 const save=()=>{localStorage.setItem("pc_products",JSON.stringify(products));localStorage.setItem("pc_cart",JSON.stringify(cart));localStorage.setItem("pc_pets",JSON.stringify(pets));localStorage.setItem("pc_bookings",JSON.stringify(bookings));localStorage.setItem("pc_orders",JSON.stringify(orders));localStorage.setItem("pc_restocks",JSON.stringify(restocks));localStorage.setItem("pc_admin_records",JSON.stringify(adminRecords))};
@@ -77,7 +78,7 @@ function renderShop(){
  const q=$("#productSearch")?.value.toLowerCase()||"";list=list.filter(p=>(p.name+p.desc+p.category).toLowerCase().includes(q));
  const sort=$("#sortProducts")?.value||"name";list.sort((a,b)=>sort==="low"?a.price-b.price:sort==="high"?b.price-a.price:a.name.localeCompare(b.name));
  $("#productCount").textContent=list.length+" produtos encontrados";
- $("#productGrid").innerHTML=list.map(p=>`<article class="product-card"><div class="product-visual"><img src="assets/${p.image}?v=6" alt="${p.name}"></div><span class="stock-tag ${p.stock===0?"out":p.stock<=p.min?"low":""}">${p.stock===0?"Esgotado":p.stock+" em estoque"}</span><div class="product-info"><small>${p.category.toUpperCase()} • ${p.animal}</small><h3>${p.name}</h3><p>${p.desc}</p><div class="product-buy"><strong>${money(p.price)}</strong><button data-add="${p.id}" ${p.stock===0?"disabled":""} aria-label="Adicionar ao carrinho"><i data-lucide="plus"></i></button></div></div></article>`).join("");
+ $("#productGrid").innerHTML=list.map(p=>`<article class="product-card"><div class="product-visual"><span class="product-photo" role="img" aria-label="${p.name}" style="background-image:url('assets/${p.sheet}?v=7');background-position:${p.pos}"></span></div><span class="stock-tag ${p.stock===0?"out":p.stock<=p.min?"low":""}">${p.stock===0?"Esgotado":p.stock+" em estoque"}</span><div class="product-info"><small>${p.category.toUpperCase()} • ${p.animal}</small><h3>${p.name}</h3><p>${p.desc}</p><div class="product-buy"><strong>${money(p.price)}</strong><button data-add="${p.id}" ${p.stock===0?"disabled":""} aria-label="Adicionar ao carrinho"><i data-lucide="plus"></i></button></div></div></article>`).join("");
  $$("[data-cat]").forEach(b=>b.onclick=()=>{filters.category=b.dataset.cat;renderShop()});$$("[data-animal-filter]").forEach(b=>b.onclick=()=>{filters.animal=b.dataset.animalFilter;renderShop()});$$("[data-add]").forEach(b=>b.onclick=()=>addToCart(Number(b.dataset.add)));refreshIcons();
 }
 function addToCart(id){const product=products.find(p=>p.id===id),item=cart.find(i=>i.id===id),qty=item?.qty||0;
@@ -113,8 +114,9 @@ if(bookings.some(b=>b.date===date&&b.time===time&&b.status!=="Cancelado"))return
 function registerPet(e){e.preventDefault();const fd=new FormData(e.target),pet={id:Date.now(),...Object.fromEntries(fd.entries())};pets.push(pet);save();closeModal("petModal");e.target.reset();toast(pet.name+" foi cadastrado com sucesso!")}
 function submitBusiness(e){e.preventDefault();closeModal("businessModal");e.target.reset();toast("Solicitação enviada para a equipe comercial!")}
 
-function login(e){e.preventDefault();
-if($("#loginUser").value==="Petclub"&&$("#loginPass").value==="Pet1234"){sessionStorage.setItem("pc_admin","true");closeModal("loginModal");showAdmin()}else{$("#loginError").textContent="Login ou senha incorretos.";$("#loginPass").value=""}}
+async function login(e){e.preventDefault();
+const bytes=new TextEncoder().encode($("#loginPass").value),digest=await crypto.subtle.digest("SHA-256",bytes),hash=[...new Uint8Array(digest)].map(value=>value.toString(16).padStart(2,"0")).join("");
+if($("#loginUser").value==="Petclub"&&hash==="63e6f54d17dddc0274972b0c7869c56b7b7671302fa40adef2ddb977afa37989"){sessionStorage.setItem("pc_admin","true");closeModal("loginModal");showAdmin()}else{$("#loginError").textContent="Login ou senha incorretos.";$("#loginPass").value=""}}
 function showAdmin(){if(sessionStorage.getItem("pc_admin")!=="true")return openModal("loginModal");$("#publicApp").style.display="none";$(".topbar").style.display="none";$("#adminApp").classList.add("active");renderAdmin("dashboard");window.scrollTo(0,0);refreshIcons()}
 function logout(){sessionStorage.removeItem("pc_admin");$("#adminApp").classList.remove("active");$("#publicApp").style.display="block";$(".topbar").style.display="block";go("home");toast("Você saiu da administração")}
 const statusClass=s=>s==="Pendente"||s==="Confirmado"?"warn":s==="Cancelado"||s==="Esgotado"?"bad":"";

@@ -128,6 +128,8 @@ img{display:block}
 .product-visual{height:155px;background:linear-gradient(135deg,var(--mint),var(--cream));display:grid;place-items:center}
 .product-visual img{width:100%;height:100%;object-fit:cover;filter:saturate(.82)}
 .product-visual svg{width:60px;height:60px;color:var(--teal)}
+.product-visual{height:auto;aspect-ratio:1/1;overflow:hidden;background:#f7f2ec}
+.product-photo{display:block;width:100%;height:100%;background-repeat:no-repeat;background-size:300% 200%;background-color:#f7f2ec}
 .stock-tag{position:absolute;top:11px;right:11px;background:white;border-radius:20px;padding:5px 8px;font-size:10px;font-weight:900}
 .stock-tag.low{background:#fff0da;color:#91600b}
 .stock-tag.out{background:#ffe2dd;color:var(--red)}
